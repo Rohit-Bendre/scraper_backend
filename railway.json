@@ -3,4 +3,3 @@
     "command": "java -jar target/*.jar"
   }
 }
- 
