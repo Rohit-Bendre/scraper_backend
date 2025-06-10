@@ -1,8 +1,6 @@
 {
-  "build": {
-    "command": "apt-get update && apt-get install -y openjdk-17-jdk && JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 PATH=$JAVA_HOME/bin:$PATH ./mvnw clean package -DskipTests"
-  },
   "start": {
     "command": "java -jar target/*.jar"
   }
 }
+ 
